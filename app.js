@@ -34,3 +34,6 @@ fs.createReadStream("NFTNaming-csv -TeamEngine.csv")
   .on("error", function (error) {
     console.log(error.message);
   });
+app.get("/", (req, res) => {
+  console.log(row);
+});
